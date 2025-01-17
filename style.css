@@ -69,3 +69,47 @@ img{
     margin: 0 6px;
     display: none;
 }
+
+/* ........................@media Query..................................... */
+
+
+@media(max-width: 1000px){
+    h1{
+        font-size: 25px;
+    }
+
+    .nav-links li{
+        margin: 0 14px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+@media(max-width: 710px){
+    h1{
+        font-size: 20px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    button{
+        display: none;
+    }
+
+
+    .nav-btn i{
+        display: block;
+    }
+
+    #closeIcon{
+        display: none;
+    }
+
+    img{
+        display: block;
+        margin-right: 20px;
+    }
+
+}
