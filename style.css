@@ -112,4 +112,22 @@ img{
         margin-right: 20px;
     }
 
+    .menu{
+        background-color: rgb(64, 68, 68);
+        min-width: 25%;
+        height: 100%;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    
+    .nav-links li{
+        display:block;
+        padding: 3rem;
+        font-size: 25px; 
+           
+    }
+
 }
